@@ -24,23 +24,46 @@
       color: #0dcaf0;
       font-weight: bold;
     }
+
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    .btn-download {
+      margin: 20px;
+    }
+
+    img {
+      width: 180px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
 
+  <!-- Logo image -->
+  <img src="delphin-logo.png" alt="Delphin Logo">
+
   <h1>Welcome to Delphin Beats</h1>
   <p>Solid web project for music streaming.</p>
 
-  <a href="delphin-beats.zip" download>Download My Beats</a>
+  <!-- Download button -->
+  <a href="delphin-beats.zip" download class="btn btn-info btn-download">Download My Beats</a>
 
+  <!-- Audio player -->
   <h2 style="margin-top: 40px;">Amapiano Fly Mode — Delphin Vibes</h2>
-  <audio controls autoplay loop> 
-      <source src="amapiano_beat.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>    
-  <source src="amapiano_beat.mp3" type="audio/mpeg">
+  <audio controls autoplay loop>
+    <source src="amapiano_beat.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 
-</body> 
-  <img src="Black White Dark Futuristic Coming Soon W..." alt="Delphin Logo" style="width: 180px; margin-bottom: 20px;"></html>
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Delphin Music. All rights reserved.
+  </footer>
+
+</body>
+</html>
